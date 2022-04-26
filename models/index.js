@@ -3,6 +3,7 @@
 const Question = require('./Question');
 const Score = require('./Score');
 const User = require('./User');
+const Hdall= require('./Hdall');
 
 //create associations
 User.hasMany(Score, {
@@ -21,4 +22,4 @@ Question.belongsTo(User, {
   foreignKey: 'user_id',
   onDelete: "cascade"
 });
-module.exports = { Question, Score, User };
+module.exports = { Question, Score, User, Hdall };
