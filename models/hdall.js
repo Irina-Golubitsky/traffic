@@ -25,23 +25,23 @@ Hdall.init(
                 len: [1]
             }
         },
-        y2017: {
+        yone: {
             type: DataTypes.INTEGER,
             allowNull: true
         },
-        y2018: {
+        ytwo: {
             type: DataTypes.INTEGER,
             allowNull: true
         },
-        y2019: {
+        ythree: {
             type: DataTypes.INTEGER,
             allowNull: true
         },
-        y2020: {
+        yfour: {
             type: DataTypes.INTEGER,
             allowNull: true
         },
-        y2021: {
+        yfive: {
             type: DataTypes.INTEGER,
             allowNull: true
         }

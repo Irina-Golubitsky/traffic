@@ -1,7 +1,7 @@
 {
   "name": "traffic",
   "version": "1.0.0",
-  "description": "We have created a platform where students can boost their knowledge of coding while answering complex true or false questions, tracking progress, while protecting their progress.",
+  "description": "traffic tool",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daphne1014/quiz-code.git"
+    "url": "git+https://github.com/Irina-Golubitsky/traffic"
   },
   "author": "irina golubitsky",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daphne1014/quiz-code/issues"
+    "url": "https://github.com/Irina-Golubitsky/traffic/issues"
   },
-  "homepage": "https://github.com/daphne1014/quiz-code#readme",
+  "homepage": "https://github.com/Irina-Golubitsky/traffic/quiz-code#readme",
   "keywords": [],
   "dependencies": {
     "bcrypt": "^5.0.1",

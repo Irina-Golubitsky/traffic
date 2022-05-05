@@ -41,11 +41,11 @@ router.post('/', (req, res) => {
   Hdall.create({
     city: req.body.city,
     county: req.body.county,
-    y2017: req.body.y2017,
-    y2018: req.body.y2018,
-    y2019: req.body.y2019,
-    y2020: req.body.y2020,
-    y2021: req.body.y2021,
+    yone: req.body.yone,
+    ytwo: req.body.ytwo,
+    ythree: req.body.ythree,
+    yfour: req.body.yfour,
+    yfive: req.body.yfive,
     
   })
 
@@ -81,11 +81,11 @@ router.post('/', (req, res) => {
 //   });
 // });
 // delete question
-router.delete('/:id', (req, res) => {
-  console.log('id', req.params.id);
-  Question.destroy({
+router.delete('/', (req, res) => {
+  
+  Hdall.destroy({
     where: {
-      id: req.params.id
+      
     }
   })
     .then(dbQuestionData => {
