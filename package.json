@@ -1,5 +1,5 @@
 {
-  "name": "traffic",
+  "name": "y",
   "version": "1.0.0",
   "description": "traffic tool",
   "main": "server.js",
@@ -10,14 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Irina-Golubitsky/traffic"
+    "url": "git+https://github.com/Irina-Golubitsky/traffic.git"
   },
   "author": "irina golubitsky",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Irina-Golubitsky/traffic/issues"
-  },
-  "homepage": "https://github.com/Irina-Golubitsky/traffic/quiz-code#readme",
   "keywords": [],
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -29,5 +25,10 @@
     "mysql2": "^2.3.0",
     "nodemon": "^2.0.12",
     "sequelize": "^6.6.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Irina-Golubitsky/traffic/issues"
+  },
+  "homepage": "https://github.com/Irina-Golubitsky/traffic#readme",
+  "devDependencies": {}
 }
