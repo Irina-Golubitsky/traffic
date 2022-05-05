@@ -11,7 +11,7 @@ async function addQuestion(event) {
     let answer=false;
     let data_text = document.querySelector('textarea[name="question-text"]').value;
   
-    // if (document.getElementById('yes').checked ) {answer=true;}
+    // if  (document.getElementById('yes').checked ) {answer=true;}
    // data_text=data_text.replace(",", "");
     console.log(data_text);
   
