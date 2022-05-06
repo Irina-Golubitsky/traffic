@@ -1,33 +1,28 @@
 {
   "name": "roz-traffic",
   "version": "1.0.0",
-  "engines": {
-    "node": "v14.17.4"
-  },
-  "description": "",
+  "description": "ak tool",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Irina-Golubitsky/traffic.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Irina Golubitsky",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Irina-Golubitsky/traffic"
+    "url": "https://github.com/Irina-Golubitsky/traffic/issues"
   },
   "homepage": "https://github.com/Irina-Golubitsky/traffic#readme",
-  "keywords": [],
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.3",
-    "dotenv": "^10.0.0",
+    "dotenv": "^16.0.0",
     "express": "^4.18.1",
-    "express-handlebars": "^5.3.5",
+    "express-handlebars": "^6.0.5",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.16",
