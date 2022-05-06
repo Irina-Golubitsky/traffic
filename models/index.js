@@ -3,7 +3,7 @@
 const Question = require('./Question');
 const Score = require('./Score');
 const User = require('./User');
-const Hdall= require('./Hdall');
+const Hdall= require('./Hdalls');
 
 //create associations wdd
 User.hasMany(Score, {
