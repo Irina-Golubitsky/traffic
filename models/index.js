@@ -1,4 +1,4 @@
-//import all models
+//import all models e
 
 const Question = require('./Question');
 const Score = require('./Score');
