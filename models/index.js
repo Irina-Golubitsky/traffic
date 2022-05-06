@@ -5,7 +5,7 @@ const Score = require('./Score');
 const User = require('./User');
 const Hdall= require('./Hdall');
 
-//create associations
+//create associations wdd
 User.hasMany(Score, {
   foreignKey: 'user_id'
 });
