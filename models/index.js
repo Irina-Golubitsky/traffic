@@ -1,4 +1,4 @@
-//import all models e
+//import all models  fge
 
 const Question = require('./Question');
 const Score = require('./Score');
